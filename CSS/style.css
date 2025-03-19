@@ -112,6 +112,100 @@ nav ul a {
   width: 451px;
 }
 
+/* PROJECT SECTION  */
+.project-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
+.project-section {
+  background: rgb(229, 229, 229);
+}
+.project-title-1 {
+  font-family: Bebas Neue;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 96px;
+  color: rgb(54, 57, 88);
+}
+.project-title-1 span {
+  color: rgb(244, 96, 96);
+}
+
+.project {
+  width: 370px;
+  border-radius: 19.74px;
+  box-shadow: 0px 6.58px 19.74px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(255, 255, 255);
+}
+.project-img {
+  max-width: 343.54px;
+  margin: 0 auto;
+}
+.project-img img {
+  width: 100%;
+  padding-top: 15px;
+}
+.project-title {
+  color: rgb(54, 57, 88);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  width: 306px;
+  padding: 25px 31px 12px 19px;
+}
+.project-p {
+  color: rgb(108, 108, 108);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  width: 316px;
+  padding: 0 35px 20px 19px;
+}
+
+/* FOOTER SECTION  */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 906px;
+  height: 225px;
+  margin: 40px auto 93px;
+  border-radius: 30px;
+  background: linear-gradient(
+    133.39deg,
+    rgb(93, 105, 233) -9.623%,
+    rgb(66, 37, 182) 99.867%
+  );
+}
+
+.footer-heading {
+  color: rgb(255, 255, 255);
+  font-family: Bebas Neue;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.Hello {
+  color: rgb(105, 104, 113);
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.bello {
+  color: rgb(54, 57, 88);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 144px;
+}
 /* RESPONSIVE MEDIA QUERY */
 
 /* small device */
